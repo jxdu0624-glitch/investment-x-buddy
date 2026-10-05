@@ -9,12 +9,12 @@
 | 项目 | 地址或状态 |
 | --- | --- |
 | 公开可访问 Web 产品 | [投资 X Buddy](https://investment-x-buddy-djx.dujiaxin0624.chatgpt.site) |
-| 源代码仓库（Sites Git 远端） | [Sites Git 源码仓库](https://git.chatgpt-team.site/5aef0e86-60f1-4cd3-bfdc-d99cc114b4e4/appgprj_6ac3794c1f9881919fa489f5cd5369e3.git)（匿名读取权限待确认） |
+| 公开源代码仓库 | [GitHub · investment-x-buddy](https://github.com/jxdu0624-glitch/investment-x-buddy) |
 | AI 使用与验证记录 | [AI_USAGE_AND_VALIDATION.md](./AI_USAGE_AND_VALIDATION.md) |
 | 测试说明 | [TESTING.md](./TESTING.md) |
 | 题目原文 | [13_投资XBuddy.md](./docs/13_投资XBuddy.md) |
 
-发布后应在无站点登录态的浏览器中实际打开公开部署站点检查主链路。源码仓库由 Sites 托管，若评审需要匿名读取源码，需另行镜像至公开 Git 服务。
+公开站点与 GitHub 仓库已在无登录态浏览器中打开核验。站点完整研究主链路的操作验收见[测试说明](./TESTING.md)。
 
 ## 快速启动
 
@@ -91,7 +91,7 @@ curl -s http://localhost:5173/api/fuyao \
 - 没有真实扶摇数据驱动的完整研究线程；真实服务端适配 API 与演示 Harness 尚未合并。估值分位、财报同比等演示指标也未由真实原始序列重新计算。
 - 没有 iFinD 连接、跨设备同步、用户级权限体系、生产审计存储、真实计费、交易能力或投资建议。
 - JSON 检查点导入只做基础结构校验；请只导入自己保存、可信的检查点文件。当前没有文件签名或跨设备身份校验。
-- 真实 API 可用性、授权范围、响应字段和数据时效需要在持有有效 API Key 的环境中继续验收。Sites 源码仓库的匿名读取权限需另行核验。
+- 真实 API 可用性、授权范围、响应字段和数据时效需要在持有有效 API Key 的环境中继续验收。
 
 ## 参考
 
